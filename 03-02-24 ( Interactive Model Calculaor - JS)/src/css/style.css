@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    background-color: #e0e0e0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 25%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calci {
+    width: 75%;
+    border-radius: 30px;
+    height: 80%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    border: none !important;
+    outline: none;
+}
+
+.panel {
+    height: 20%;
+    font-size: 40px;
+    text-align: right;
+    border-radius: 20px;
+    padding: 32px;
+    border: 0px solid black;
+    box-sizing: border-box;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.panel:focus {
+    outline: none;
+}
+
+.keys {
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttonsRow {
+    display: flex;
+    justify-content: space-between;
+    height: 17%;
+}
+
+.button img {
+    width: 30%;
+}
+
+.button, .enterButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 20%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.enterButton {
+    width: 46.5%;
+    border-radius: 20px;
+}
+
+main p {
+    margin-top: 20px;
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    color: #595959;
+}
